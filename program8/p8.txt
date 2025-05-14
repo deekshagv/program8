@@ -1,0 +1,19 @@
+mkdir p8
+cd p8
+
+mvn archetype:generate\
+ -DgroupId=com.deekshagv\
+ -DartifactId=program8\
+ -DarchetypeArtificatId=maven-archetype-quickstart\
+ -DinteractiveMode=False
+
+
+git init 
+git add .
+git commit -m "first commit"
+
+git branch -M main
+ git remote add origin https://github.com/deekshagv/gsss.git
+
+ git push -u origin main
+ 
